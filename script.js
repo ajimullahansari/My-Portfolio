@@ -70,11 +70,11 @@ document.addEventListener('visibilitychange',
 
 
 // <!-- typed js effect starts -->
-// var typed = new Typed(".typing-text", {
-//     strings: ["Full-Stack Web Developer"],
-//     typeSpeed: 60,
-//     backSpeed: 30,
-//     backDelay: 500,
+var typed = new Typed(".typing-text", {
+    strings: ["Full-Stack Web Developer"],
+    typeSpeed: 60,
+    backSpeed: 30,
+    backDelay: 500,
 });
 // <!-- typed js effect ends -->
 
@@ -127,7 +127,7 @@ function showProjects(projects) {
 
     // <!-- tilt js effect starts -->
     VanillaTilt.init(document.querySelectorAll(".tilt"), {
-        max: 15,
+        max: 23,
     });
     // <!-- tilt js effect ends -->
 
